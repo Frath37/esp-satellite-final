@@ -17,11 +17,11 @@
 #define BUS4 18
 #define LED_PIN 8
 
-const char* ssid1 = "Geoclimair wifi";
-const char* pass1 = "0607292493";
-const char* ssid2 = "Livebox-d3b8";
-const char* pass2 = "CwfAlb0607@!";
-IPAddress fallbackMQTT(192, 168, 2, 22);
+const char* ssid1 = "SSID";
+const char* pass1 = "Mdp";
+const char* ssid2 = "SSID2";
+const char* pass2 = "Mdp@!";
+IPAddress fallbackMQTT(192, 168, 1, 1);  //ip serveur
 IPAddress mqttIP;
 
 WiFiClient espClient;
