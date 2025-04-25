@@ -15,7 +15,7 @@
 #define BUS2 4
 #define BUS3 17
 #define BUS4 18
-#define LED_PIN 8
+#define LED_PIN 2
 
 const char* ssid1 = "SSID";
 const char* pass1 = "Mdp";
